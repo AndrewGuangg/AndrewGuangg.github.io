@@ -1,0 +1,524 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Program, Guan">
+    <meta name="description" content="Program | Guan">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Program | Guan</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+    
+    <script src="/libs/jquery/jquery.min.js"></script>
+	<script>
+		(function(i,s,o,g,r,a,m){
+			i["DaoVoiceObject"]=r;
+			i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)
+			},
+			i[r].l=1*new Date();
+			a=s.createElement(o),m=s.getElementsByTagName(o)[0];
+			a.async=1;a.src=g;
+			a.charset="utf-8";
+			m.parentNode.insertBefore(a,m)})
+		(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/c98ea169.js","daovoice")
+	</script>
+    
+<meta name="generator" content="Hexo 4.1.0"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+
+
+<body>
+    <header class="navbar-fixed">        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/AndrewGuangg/AndrewGuangg.github.io" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    <div class="bg-cover pd-header about-cover">
+    <div class="container">
+    <div class="row">
+    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
+        <div class="brand">
+            <div class="title center-align">
+                
+                学无止境
+                
+            </div>
+
+            <div class="description center-align">
+                
+                <span id="subtitle"></span>
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+                <script>
+                    var typed = new Typed("#subtitle", {
+                        strings: ['从来没有真正的绝境, 只有心灵的迷途','Never really desperate, only the lost of the soul'],
+                        startDelay: 300,
+                        typeSpeed: 100,
+                        loop: true,
+                        backSpeed: 50,
+                        showCursor: true
+                    });
+                </script>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    // 每天切换 banner 图.  Switch banner image every day.
+    $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
+</script>
+
+
+    </div>
+</div>
+
+<main class="content">
+    <div id="contact" class="container chip-container">
+        <div class="card">
+            <div class="card-content">
+                <div class="tag-title center-align">
+                    <i class="fas fa-graduation-cap"></i>&nbsp;&nbsp;GuanGuan入坑记录
+                </div>
+                <br/>
+
+<p><strong>下面记录的是主要是关于我已经结束的大块的学习内容，以及当前正在进行的项目内容。</strong><br><strong>写在最前，每天要坚持做两件事情：1、阅读优秀的博客，并且写总结。2、每天练习算法。</strong></p>
+<hr>
+<style>
+    .table{
+        border:0px;
+    }
+    .col1{
+        width:110px;
+        text-align:center;
+    }
+    .col2{
+        width:300px;
+    }
+    .col3{
+        width:500px;
+    }
+    .col4{
+        text-align:center;
+    }
+    th{
+        text-align:center;
+    }
+</style>
+<table class="table">
+    <tr><th class="col1">时间段</th><th class="col2">项目</th><th class="col3">描述</th><th class="col4">备注</th></tr>
+    <tr><td class="col1">大三寒假</td>
+        <td class="col2"><a href="https://github.com/AllenWrong/nand2tetris" target="_blank" rel="noopener">Hack计算机平台</a></td>
+        <td class="col3">从零构建计算机硬件，软件体系</td>
+        <td class="col4">已完成</td>
+    </tr>
+    <tr><td class="col1">20.4</td>
+        <td class="col2"><a href="">Neural Network And Deep Learning</a></td>
+        <td class="col3">Deep Learning 专项课程一</td>
+        <td class="col4">已完成</td>
+    </tr>
+    <tr><td class="col1">长期</td>
+        <td class="col2"><a href="https://github.com/AllenWrong/KaoYanEnglish" target="_blank" rel="noopener">英语重点单词数据库</a></td>
+        <td class="col3">收集考试、文献中常见的词汇，给出多个学习例句</td>
+        <td class="col4">正在进行</td>
+    </tr>
+    <tr><td class="col1">20.3 -> -</td>
+        <td class="col2"><a href="">CSAPP</a></td>
+        <td class="col3">学习CSAPP，并完成课后lab</td>
+        <td class="col4">正在进行</td>
+    </tr>
+    <tr><td class="col1">2021.1 -> -</td>
+        <td class="col2"><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/syllabus/" target="_blank" rel="noopener">6.0001</a></td>
+        <td class="col3">以Syllabus为主线，阅读为主，视频为辅。Lab为主</td>
+        <td class="col4">正在进行</td>
+    </tr>
+    <tr><td class="col1">2021.2 -> -</td>
+        <td class="col2"><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/syllabus/" target="_blank" rel="noopener">6.0002</a></td>
+        <td class="col3">以Syllabus为主线，阅读为主，视频为辅。Lab为主</td>
+        <td class="col4">正在进行</td>
+    </tr>
+    <tr><td class="col1">本科毕业前</td>
+        <td class="col2"><a href="">夯实基础</a></td>
+        <td class="col3">本科毕业时，应该具有扎实的操作系统、编译的基础。为以后技能扩展打基础</td>
+        <td class="col4">正在进行</td>
+    </tr>
+</table>
+
+<hr>
+<p><strong>之前有一位朋友问我都追什么剧，我想了想好像我不怎么追剧，但是我追过的讲座，追过的课还是挺过的（主要是课外的课，不是校内的课）。下面的表格是对我追过的一点经典的剧，好的讲座和课程的介绍。我也收藏过很多资料，因此在此做一个总结，来看一看哪些内容学过，哪些内容没有学过，做一个记录，供自我反思，供大家参考。</strong></p>
+<hr>
+<table class="table">
+    <tr><th class="col1">时间段</th><th class="col2">课程/讲座/剧</th><th class="col3">描述</th><th class="col4">备注</th></tr>
+    <tr><td class="col1">--</td>
+        <td class="col2"><a href="https://www.bilibili.com/video/BV1Qt411J7mo?p=100" target="_blank" rel="noopener">计算机专业导论</a></td>
+        <td class="col3">计算机专业学什么，该怎么学，有什么课程规划。这个是战神的课，讲的真好。对于大一新生，报考志愿的准大学生以及想跨专业，想转专业的，想自学计算机的人都会有巨大的帮助</td>
+        <td class="col4">正在进行</td>
+    </tr>
+    <tr><td class="col1">长期</td>
+        <td class="col2"><a href="https://www.bilibili.com/video/BV1bf4y147PZ" target="_blank" rel="noopener">操作系统原理及Linux实践</a></td>
+        <td class="col3">学期末考及考研党必备，带你30天理解操作系统原理</td>
+        <td class="col4">正在进行</td>
+    </tr>
+    <tr><td class="col1">大四寒假</td>
+        <td class="col2"><a href="https://www.youtube.com/playlist?list=PLEbnTDJUr_IcPtUXFy2b1sGRPsLFMghhS" target="_blank" rel="noopener">Compiler Design </a></td>
+        <td class="col3">Ravindrababu Ravula的课程。它的特点在于无PPT，全手写，较为基础，侧重宏观，例子较多。有几节没有字幕需要参考其他资料</td>
+        <td class="col4">正在进行</td>
+    </tr>
+    <tr><td class="col1">大四寒假</td>
+        <td class="col2"><a href="https://www.bilibili.com/video/BV11a4y1W7uE?from=search&seid=320375794088917954" target="_blank" rel="noopener">重读资本论 - 王德峰</a></td>
+        <td class="col3">在哲学家的视角下，讲解了资本论，偏僻入里，深入浅出。哲学小王子名不虚传。这个系列可以作为资本论这本书的导读，看完这个系列然后再去读原书</td>
+        <td class="col4">已完成</td>
+    </tr>
+    <tr><td class="col1">大四寒假</td>
+        <td class="col2"><a href="https://www.bilibili.com/video/BV1Ct4y1z7mz?p=1" target="_blank" rel="noopener">数学与应用数学专业导论课</a></td>
+        <td class="col3">南开大学开设的导论课，涉及分析学，代数学，几何与拓扑，微分方程，实变函数，复变函数，泛函分析的宏观介绍</td>
+        <td class="col4">已完成</td>
+    </tr>
+    <tr><td class="col1">大三</td>
+        <td class="col2"><a href="https://www.bilibili.com/video/BV1bW411V7Y5?from=search&seid=4475446159967691563" target="_blank" rel="noopener">曾国藩的识人用人之道 - 曾仕强</a></td>
+        <td class="col3">我非常崇拜曾老师，因此看过他的很多讲座。但是好像都忘记了，实际上并不是，我发现一些东西已经潜移默化了，已经成为了我思维和性格的一部分。最后，切记不可呆板的模仿别人的经验，要灵活学习。</td>
+        <td class="col4">已完成</td>
+    </tr>
+    <tr><td class="col1">大三</td>
+        <td class="col2"><a href="https://www.bilibili.com/video/BV1bW411V7Y5?from=search&seid=4475446159967691563" target="_blank" rel="noopener">鬼谷子的人生智慧 - 曾仕强</a></td>
+        <td class="col3">鬼谷子的一些人生智慧。看了这些内容要活学活用，最好是能启发自己。即使什么没记住也比不懂装懂，呆板模仿要好许多。</td>
+        <td class="col4">已完成</td>
+    </tr>
+</table>
+
+<hr>
+<p><strong>下面的表格表示我将要开始的新坑，写在这里做个目标，做个记录。</strong></p>
+<hr>
+<table class="table">
+    <tr><th class="col1">时间段</th><th class="col2">项目</th><th class="col3">描述</th><th class="col4">备注</th></tr>
+    <tr><td class="col1">长期</td>
+        <td class="col2"><a href="">读优秀的博客，写总结</a></td>
+        <td class="col3">坚持阅读优秀的博客，包括来自各大优秀的博客论坛，包括中文和英文的。并坚持写自己的感悟，摘抄博客里面优秀的内容。</td>
+        <td class="col4"></td>
+    </tr>
+    <tr><td class="col1">长期</td>
+        <td class="col2"><a href="">刷算法题</a></td>
+        <td class="col3">锻炼自己解决问题的能力。</td>
+        <td class="col4"></td>
+    </tr>
+    <tr><td class="col1">近期</td>
+        <td class="col2"><a href="">刷numpy和pandas百题通关</a></td>
+        <td class="col3"></td>
+        <td class="col4"></td>
+    </tr>
+    <tr><td class="col1">近期</td>
+        <td class="col2"><a href="">刷实验楼里面免费的优秀课程</a></td>
+        <td class="col3"></td>
+        <td class="col4"></td>
+    </tr>
+    <tr><td class="col1">2021暑假</td>
+        <td class="col2"><a href="">学习汇编语言</a></td>
+        <td class="col3"></td>
+        <td class="col4"></td>
+    </tr>
+    <tr><td class="col1">待定</td>
+        <td class="col2"><a href="">学习形式语言和自动机</a></td>
+        <td class="col3"></td>
+        <td class="col4"></td>
+    </tr>
+    <tr><td class="col1">待定</td>
+        <td class="col2"><a href="">数理数学知识体系</a></td>
+        <td class="col3"></td>
+        <td class="col4"></td>
+    </tr>
+    <tr><td class="col1">待定</td>
+        <td class="col2"><a href="">巩固操作系统，写一个自己的操作系统</a></td>
+        <td class="col3">参考6.828</td>
+        <td class="col4"></td>
+    </tr>
+    <tr><td class="col1">待定</td>
+        <td class="col2"><a href="">巩固编译原理，写一个编译器</a></td>
+        <td class="col3">参考CS143</td>
+        <td class="col4"></td>
+    </tr>
+    <tr><td class="col1"></td>
+        <td class="col2"><a href=""></a></td>
+        <td class="col3"></td>
+        <td class="col4"></td>
+    </tr>
+</table>
+            </div>
+        </div>
+
+        <div class="card">
+        </div> 
+    </div>
+</main>
+
+
+    <footer class="page-footer bg-color">
+    <div class="container row center-align" style="margin-bottom: 15px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year">2019</span>
+            <a href="https://AndrewGuangg.github.io" target="_blank">AndrewGuan</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2019";
+                    var startMonth = "6";
+                    var startDate = "28";
+                    var startHour = "0";
+                    var startMinute = "0";
+                    var startSecond = "0";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
+            <br>
+            <span>运行时间不准确，不必在意！！！</span>
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/AndrewGuangg" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:884691896@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+    <a href="https://www.zhihu.com/people/andrew-guan-48/activities" class="tooltipped" target="_blank" data-tooltip="关注我的知乎: https://www.zhihu.com/people/andrew-guan-48/activities" data-position="top" data-delay="50">
+        <i class="fab fa-zhihu1">知</i>
+    </a>
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/" + "search.xml", 'searchInput', 'searchResult');
+});
+</script>
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153156493-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'UA-153156493-2');
+</script>
+
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i["DaoVoiceObject"] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            a.charset = "utf-8";
+            m.parentNode.insertBefore(a, m)
+        })(window, document, "script", ('https:' == document.location.protocol ? 'https:' : 'http:') +
+            "//widget.daovoice.io/widget/6984b559.js", "daovoice")
+        daovoice('init', {
+            app_id: "c98ea169"
+        });
+        daovoice('update');
+    </script>
+    
+
+    
+
+    
+
+    
+    
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>
