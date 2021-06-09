@@ -44,7 +44,394 @@
 
 
 <body>
-    <header class="navbar-fixed">        
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper head-container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">Guan</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/tags">
+          
+          <i class="fas fa-tags" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>标签</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/categories">
+          
+          <i class="fas fa-bookmark" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>分类</span>
+        </a>
+      </li>
+      
+    </ul>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/learn" class="waves-effect waves-light">
+
+      
+      <i class="fas fa-list" style="zoom: 0.6;"></i>
+      
+      <span>学习</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/book">
+          
+          <i class="fas fa-book" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>经典</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/course">
+          
+          <i class="fas fa-graduation-cap" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>课程</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/learn/program">
+          
+          <i class="fas fa-drafting-compass" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>记录</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/selfReflect">
+          
+          <i class="fas fa-hand-rock" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>反思</span>
+        </a>
+      </li>
+      
+    </ul>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/art" class="waves-effect waves-light">
+
+      
+      <i class="fab fa-apple" style="zoom: 0.6;"></i>
+      
+      <span>艺术</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/art/kongfu">
+          
+          <i class="fas fa-hand-rock" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>武术</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/art/film">
+          
+          <i class="fas fa-film" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>电影</span>
+        </a>
+      </li>
+      
+    </ul>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-mug-hot" style="zoom: 0.6;"></i>
+      
+      <span>微语</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Guan</div>
+        <div class="logo-desc">
+            
+            博学之，审问之，慎思之，明辨之，笃行之
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="javascript:;">
+			
+				<i class="fa-fw fas fa-archive"></i>
+			
+			归档
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+		</a>
+            <ul  style="background:  ;" >
+              
+                <li>   
+				
+                  <a href="/tags " style="margin-left:75px";>
+				  
+				   <i class="fa fas fa-tags" style="position: absolute;left:50px" ></i>
+			      
+		          <span>标签</span>
+                  </a>
+                </li>
+              
+                <li>   
+				
+                  <a href="/categories " style="margin-left:75px";>
+				  
+				   <i class="fa fas fa-bookmark" style="position: absolute;left:50px" ></i>
+			      
+		          <span>分类</span>
+                  </a>
+                </li>
+               
+            </ul>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="javascript:;">
+			
+				<i class="fa-fw fas fa-list"></i>
+			
+			学习
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+		</a>
+            <ul  style="background:  ;" >
+              
+                <li>   
+				
+                  <a href="/book " style="margin-left:75px";>
+				  
+				   <i class="fa fas fa-book" style="position: absolute;left:50px" ></i>
+			      
+		          <span>经典</span>
+                  </a>
+                </li>
+              
+                <li>   
+				
+                  <a href="/course " style="margin-left:75px";>
+				  
+				   <i class="fa fas fa-graduation-cap" style="position: absolute;left:50px" ></i>
+			      
+		          <span>课程</span>
+                  </a>
+                </li>
+              
+                <li>   
+				
+                  <a href="/learn/program " style="margin-left:75px";>
+				  
+				   <i class="fa fas fa-drafting-compass" style="position: absolute;left:50px" ></i>
+			      
+		          <span>记录</span>
+                  </a>
+                </li>
+              
+                <li>   
+				
+                  <a href="/selfReflect " style="margin-left:75px";>
+				  
+				   <i class="fa fas fa-hand-rock" style="position: absolute;left:50px" ></i>
+			      
+		          <span>反思</span>
+                  </a>
+                </li>
+               
+            </ul>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="javascript:;">
+			
+				<i class="fa-fw fab fa-apple"></i>
+			
+			艺术
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+		</a>
+            <ul  style="background:  ;" >
+              
+                <li>   
+				
+                  <a href="/art/kongfu " style="margin-left:75px";>
+				  
+				   <i class="fa fas fa-hand-rock" style="position: absolute;left:50px" ></i>
+			      
+		          <span>武术</span>
+                  </a>
+                </li>
+              
+                <li>   
+				
+                  <a href="/art/film " style="margin-left:75px";>
+				  
+				   <i class="fa fas fa-film" style="position: absolute;left:50px" ></i>
+			      
+		          <span>电影</span>
+                  </a>
+                </li>
+               
+            </ul>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-mug-hot"></i>
+			
+			微语
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/AllenWrong/AllenWrong.github.io" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+        </div>
+
+        
             <style>
     .nav-transparent .github-corner {
         display: none !important;
@@ -90,7 +477,7 @@
     }
 </style>
 
-<a href="https://github.com/AndrewGuangg/AndrewGuangg.github.io" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+<a href="https://github.com/AllenWrong/AllenWrong.github.io" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
    data-tooltip="Fork Me" data-position="left" data-delay="50">
     <svg viewBox="0 0 250 250" aria-hidden="true">
         <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
@@ -155,7 +542,7 @@
                 </div>
                 <br/>
 
-<p><strong>下面记录的是主要是关于我已经结束的大块的学习内容，以及当前正在进行的项目内容。</strong><br><strong>写在最前，每天要坚持做两件事情：1、阅读优秀的博客，并且写总结。2、每天练习算法。</strong></p>
+<p><strong>下面记录的是主要是关于我已经结束的大块的学习内容，以及当前正在进行的项目内容。</strong><br><strong>写在最前，每天要坚持做两件事情：1、阅读优秀的博客，并且写总结。2、每天练习算法。</strong><br><strong>关于Star个数的说明：star个数越多表明课程质量越好，越需要学习。但是某些star少的并不一定是资料质量不行。有可能是因为这些课程是高阶的课程，内容很深，或者该资料需要很强的数学功底，或者该课程是硕士课程等等。</strong></p>
 <hr>
 <style>
     .table{
@@ -166,10 +553,10 @@
         text-align:center;
     }
     .col2{
-        width:300px;
+        width:320px;
     }
     .col3{
-        width:500px;
+        width:520px;
     }
     .col4{
         text-align:center;
@@ -179,142 +566,139 @@
     }
 </style>
 <table class="table">
-    <tr><th class="col1">时间段</th><th class="col2">项目</th><th class="col3">描述</th><th class="col4">备注</th></tr>
-    <tr><td class="col1">大三寒假</td>
-        <td class="col2"><a href="https://github.com/AllenWrong/nand2tetris" target="_blank" rel="noopener">Hack计算机平台</a></td>
-        <td class="col3">从零构建计算机硬件，软件体系</td>
-        <td class="col4">已完成</td>
+    <tr><th class="col1">主题</th><th class="col2">文本/课程</th><th class="col3">描述</th><th class="col4">备注</th></tr>
+    <tr><td class="col1" rowspan="3"><b>专业导论</b></td>
+        <td class="col2"><a href="http://ai.stanford.edu/users/sahami/CS2013/" target="_blank" rel="noopener">CS2013</a></td>
+        <td class="col3">计算机科学课程体系规范。里面介绍了由ACM/IEEE联合发布的计算机科学专业课程体系，以及一名合格的计算机科学专业毕业生应该达到什么要求</td>
+        <td class="col4">&starf;&starf;&starf;&starf;&starf;</td>
     </tr>
-    <tr><td class="col1">20.4</td>
-        <td class="col2"><a href="">Neural Network And Deep Learning</a></td>
-        <td class="col3">Deep Learning 专项课程一</td>
-        <td class="col4">已完成</td>
+    <tr>
+        <td class="col2"><a href="https://www.icourse163.org/course/hit-437006" target="_blank" rel="noopener">哈工大计算机专业导论</a></td>
+        <td class="col3">战德臣老师的计算机专业导论课。带领小白了解一下计算机专业要学习什么内容。强烈建议在大一之前或大一刚入学的时候就学习一下。以建议对该学科的一个宏观的蓝图。避免在以后的学习过程中，只见树木不见森林</td>
+        <td class="col4">&starf;&starf;&starf;&starf;&starf;</td>
     </tr>
-    <tr><td class="col1">长期</td>
-        <td class="col2"><a href="https://github.com/AllenWrong/KaoYanEnglish" target="_blank" rel="noopener">英语重点单词数据库</a></td>
-        <td class="col3">收集考试、文献中常见的词汇，给出多个学习例句</td>
-        <td class="col4">正在进行</td>
+    <tr>
+        <td class="col2"><a href="https://www.icourse163.org/course/HIT-7001?tid=383003" target="_blank" rel="noopener">哈工大大学计算思维导论</a></td>
+        <td class="col3">战德臣老师主讲的计算思维导论课。低年级高年级均适用</td>
+        <td class="col4">&starf;&starf;&starf;&starf;&starf;</td>
     </tr>
-    <tr><td class="col1">20.3 -> -</td>
-        <td class="col2"><a href="">CSAPP</a></td>
-        <td class="col3">学习CSAPP，并完成课后lab</td>
-        <td class="col4">正在进行</td>
+    <tr><td class="col1" rowspan="8"><b>数学</b></td>
+        <td class="col2"><a href="">高等数学</a></td>
+        <td class="col3">TBD</td>
+        <td class="col4">TBD</td>
     </tr>
-    <tr><td class="col1">2021.1 -> -</td>
-        <td class="col2"><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/syllabus/" target="_blank" rel="noopener">6.0001</a></td>
-        <td class="col3">以Syllabus为主线，阅读为主，视频为辅。Lab为主</td>
-        <td class="col4">正在进行</td>
+    <tr>
+        <td class="col2"><a href="https://book.douban.com/subject/35292688/" target="_blank" rel="noopener">《微积分的力量》</a></td>
+        <td class="col3">引言部分就深深的吸引了我。微积分不仅仅是你所学的那些计算。它是一种工具，探索世界的工具。同时它也是一种武器，解决现代科学问题必不可少的武器</td>
+        <td class="col4">&starf;&starf;</td>
     </tr>
-    <tr><td class="col1">2021.2 -> -</td>
-        <td class="col2"><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/syllabus/" target="_blank" rel="noopener">6.0002</a></td>
-        <td class="col3">以Syllabus为主线，阅读为主，视频为辅。Lab为主</td>
-        <td class="col4">正在进行</td>
+    <tr>
+        <td class="col2"><a href="https://www.bilibili.com/video/BV1ix411f7Yp?from=search&seid=849538583135909021" target="_blank" rel="noopener">线性代数</a></td>
+        <td class="col3">斯特朗老爷子的线性代数课程。这门课在网易云课堂也可以看，或者去MITOCW上看。推荐这门课，不需要理由。</td>
+        <td class="col4">&starf;&starf;&starf;&starf;&starf;</td>
     </tr>
-    <tr><td class="col1">本科毕业前</td>
-        <td class="col2"><a href="">夯实基础</a></td>
-        <td class="col3">本科毕业时，应该具有扎实的操作系统、编译的基础。为以后技能扩展打基础</td>
-        <td class="col4">正在进行</td>
+    <tr>
+        <td class="col2"><a href="https://www.bilibili.com/video/BV1s7411L7xd/?spm_id_from=333.788.b_636f6d6d656e74.8" target="_blank" rel="noopener">线性大数和从数据中学习</a></td>
+        <td class="col3">斯特朗老爷子主讲的课程。讲了线性代数在数据分析，信号处理，深度学习上的应用。需要有线代基础。课程教材是Linear Algebra And Learning From Data。学完该课程可以接着学习《Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow》</td>
+        <td class="col4">&starf;&starf;&starf;&starf;&starf;</td>
+    </tr>
+    <tr>
+        <td class="col2"><a href="https://www.icourse163.org/course/HIT-7001?tid=383003" target="_blank" rel="noopener">概率论</a></td>
+        <td class="col3">TBD</td>
+        <td class="col4">TBD</td>
+    </tr>
+    <tr>
+        <td class="col2"><a href="https://www.icourse163.org/course/HIT-7001?tid=383003" target="_blank" rel="noopener">采用图画来讲解数学</a></td>
+        <td class="col3">一个国外的大佬搭建的数学博客网站。用图画的方式来讲一些数学趣事，空闲时间可以看看，数学原来也很有趣</td>
+        <td class="col4">&starf;&starf;</td>
+    </tr>
+    <tr>
+        <td class="col2"><a href="https://www.icourse163.org/course/HIT-7001?tid=383003" target="_blank" rel="noopener">MIT的数学资料仓库</a></td>
+        <td class="col3">里面有MIT数学课的资料，供参考使用</td>
+        <td class="col4">&starf;&starf;</td>
+    </tr> 
+    <tr>
+        <td class="col2"><a href="https://feynmanlectures.caltech.edu/" target="_blank" rel="noopener">费曼物理学讲义</a></td>
+        <td class="col3">这份资料一直都备受好评。其实大家不用深入学习这里面的内容，但不得不领略一下应用数学武器用于解决现实世界的问题的魅力。不得不领略一下大神是怎么思考问题的。之所以这么少星星，是因为物理对计算机而言并不那么重要</td>
+        <td class="col4">&starf;&starf;</td>
+    </tr>
+    <tr><td class="col1" rowspan="7"><b>机器学习</b></td>
+        <td class="col2"><a href="http://cs229.stanford.edu/syllabus.html" target="_blank" rel="noopener">CS229</a></td>
+        <td class="col3">斯坦福大学机器学习课程主页。吴恩达老师主讲，或者可以去Coursera学习。入门级</td>
+        <td class="col4">&starf;&starf;&starf;&starf;&starf;</td>
+    </tr>
+    <tr>
+        <td class="col2"><a href="https://www.statlearning.com/" target="_blank" rel="noopener">ISL小黄书</a></td>
+        <td class="col3">很好的统计学习入门资料也是机器学习入门资料。原书提供基于R的实现，但是现在也有了学习者提供的基于Python的实现。该书第二版就要发布了</td>
+        <td class="col4">&starf;&starf;&starf;&starf;&starf;</td>
+    </tr>
+    <tr>
+        <td class="col2"><a href="https://mlcourse.ai/" target="_blank" rel="noopener">mlcourse</a></td>
+        <td class="col3">俄国人发布的课程。该课程在github上已经获得了超过1900颗星，其中包含很多练习的部分，而且每周都会有作业，还有课程内的Kaggle比赛。课程的发布者说，这套课程的重点是完美结合了理论与实践，还有互动的激励机制让你能坚持下去，另外还有一个大型社区提供支持，可以去社区里问作业。需要一些基础</td>
+        <td class="col4">&starf;&starf;&starf;&starf;&starf;</td>
+    </tr>
+    <tr>
+        <td class="col2"><a href="https://uvaml1.github.io/" target="_blank" rel="noopener">PRML</a></td>
+        <td class="col3">阿姆斯特丹大学人工智能硕士课程是使用的PRML这本书。所以这里列出的是该大学的课程。此外，PRML这本书比较偏理论。但是也有代码。<a href="http://prml.github.io/" target="_blank" rel="noopener">Toolbox</a>可以在这里获得</td>
+        <td class="col4">&starf;&starf;&starf;&starf;</td>
+    </tr>
+    <tr>
+        <td class="col2"><a href="https://scikit-learn.org/stable/" target="_blank" rel="noopener">Sklearn框架</a></td>
+        <td class="col3">做机器学习必用框架，无需多言。</td>
+        <td class="col4">&starf;&starf;&starf;&starf;&starf;</td>
+    </tr>
+    <tr>
+        <td class="col2"><a href="http://web.stanford.edu/class/cs224w/" target="_blank" rel="noopener">图机器学习</a></td>
+        <td class="col3">图机器学习课程。图学习无疑是目前人工智能领域最火的领域之一，很多机器学习任务都会用到图学习的知识。这也是后续很重要的课程。课程有图学习领域的大佬Jure Leskovec主讲</td>
+        <td class="col4">&starf;&starf;&starf;</td>
+    </tr>
+    <tr>
+        <td class="col2"><a href="https://www.bilibili.com/video/BV1X441127w7" target="_blank" rel="noopener">概率图模型</a></td>
+        <td class="col3">该课程也发布在了<a href="https://www.coursera.org/specializations/probabilistic-graphical-models" target="_blank" rel="noopener">Coursera</a>上，<a href="https://github.com/kushagra06/CS228_PGM" target="_blank" rel="noopener">课程仓库</a></td>
+        <td class="col4">&starf;&starf;&starf;</td>
+    </tr>
+    <tr><td class="col1" rowspan="6"><b>深度学习</b></td>
+        <td class="col2"><a href="https://web.stanford.edu/class/cs230/" target="_blank" rel="noopener">CS230</a></td>
+        <td class="col3">斯坦福大学深度学习课程主页。吴恩达老师主讲。或者可以去Coursera学习。网易云课堂也搬运了这个课程</td>
+        <td class="col4">&starf;&starf;&starf;&starf;&starf;</td>
+    </tr>
+    <tr>
+        <td class="col2"><a href="http://cs231n.stanford.edu/" target="_blank" rel="noopener">CS231n</a></td>
+        <td class="col3">斯坦福大学计算机视觉课程主页。李飞飞老师主讲，网易云也可以学习</td>
+        <td class="col4">&starf;&starf;&starf;&starf;&starf;</td>
+    </tr>
+    <tr>
+        <td class="col2"><a href="https://fullstackdeeplearning.com/spring2021/" target="_blank" rel="noopener">Full Stack Deep Learning</a></td>
+        <td class="col3">伯克利大学的课程。介绍了实际深度学习项目落地过程中的各个方面，包括项目设定，团队组织，框架工具，数据管理，开发调优实践，测试与生产上线等</td>
+        <td class="col4">&starf;&starf;&starf;&starf;</td>
+    </tr>
+    <tr>
+        <td class="col2"><a href="https://cs330.stanford.edu/" target="_blank" rel="noopener">CS330</a></td>
+        <td class="col3">多任务学习和元学习课程</td>
+        <td class="col4">&starf;&starf;&starf;</td>
+    </tr>
+    <tr>
+        <td class="col2"><a href="https://pytorch.org/docs/stable/index.html" target="_blank" rel="noopener">Pytorch</a></td>
+        <td class="col3">深度学习框架。在学术界非常流行</td>
+        <td class="col4">&starf;&starf;&starf;&starf;&starf;</td>
+    </tr>
+    <tr>
+        <td class="col2"><a href="https://www.tensorflow.org/versions/r2.4/api_docs/python/tf" target="_blank" rel="noopener">Tensorflow</a></td>
+        <td class="col3">深度学习框架。在工业界非常流行</td>
+        <td class="col4">&starf;&starf;&starf;&starf;&starf;</td>
+    </tr>
+    <tr><td class="col1" rowspan="2"><b>人工智能</b></td>
+        <td class="col2"><a href="https://web.stanford.edu/class/cs230/" target="_blank" rel="noopener">人工智能导论</a></td>
+        <td class="col3">UCB的课程，教材是<a href="http://aima.cs.berkeley.edu/index.html" target="_blank" rel="noopener">人工智能：一种现代的方法</a>这本砖头书。推荐食用18年秋季的课程。它公开了gradescope。<a href="https://github.com/aimacode" target="_blank" rel="noopener">代码仓库</a></td>
+        <td class="col4">&starf;&starf;&starf;&starf;&starf;</td>
+    </tr>
+    <tr>
+        <td class="col2"><a href="https://ucbrise.github.io/cs294-ai-sys-fa19/" target="_blank" rel="noopener">AI System</a></td>
+        <td class="col3">关于人工智能系统的课程。这个课程对于AI system领域，研究新手的思路拓宽和有经验研究者的思路整理非常有帮助。该课程公开出来的部分只有paper阅读任务，ppt</td>
+        <td class="col4">&starf;&starf;&starf;</td>
     </tr>
 </table>
 
-<hr>
-<p><strong>之前有一位朋友问我都追什么剧，我想了想好像我不怎么追剧，但是我追过的讲座，追过的课还是挺过的（主要是课外的课，不是校内的课）。下面的表格是对我追过的一点经典的剧，好的讲座和课程的介绍。我也收藏过很多资料，因此在此做一个总结，来看一看哪些内容学过，哪些内容没有学过，做一个记录，供自我反思，供大家参考。</strong></p>
-<hr>
-<table class="table">
-    <tr><th class="col1">时间段</th><th class="col2">课程/讲座/剧</th><th class="col3">描述</th><th class="col4">备注</th></tr>
-    <tr><td class="col1">--</td>
-        <td class="col2"><a href="https://www.bilibili.com/video/BV1Qt411J7mo?p=100" target="_blank" rel="noopener">计算机专业导论</a></td>
-        <td class="col3">计算机专业学什么，该怎么学，有什么课程规划。这个是战神的课，讲的真好。对于大一新生，报考志愿的准大学生以及想跨专业，想转专业的，想自学计算机的人都会有巨大的帮助</td>
-        <td class="col4">正在进行</td>
-    </tr>
-    <tr><td class="col1">长期</td>
-        <td class="col2"><a href="https://www.bilibili.com/video/BV1bf4y147PZ" target="_blank" rel="noopener">操作系统原理及Linux实践</a></td>
-        <td class="col3">学期末考及考研党必备，带你30天理解操作系统原理</td>
-        <td class="col4">正在进行</td>
-    </tr>
-    <tr><td class="col1">大四寒假</td>
-        <td class="col2"><a href="https://www.youtube.com/playlist?list=PLEbnTDJUr_IcPtUXFy2b1sGRPsLFMghhS" target="_blank" rel="noopener">Compiler Design </a></td>
-        <td class="col3">Ravindrababu Ravula的课程。它的特点在于无PPT，全手写，较为基础，侧重宏观，例子较多。有几节没有字幕需要参考其他资料</td>
-        <td class="col4">正在进行</td>
-    </tr>
-    <tr><td class="col1">大四寒假</td>
-        <td class="col2"><a href="https://www.bilibili.com/video/BV11a4y1W7uE?from=search&seid=320375794088917954" target="_blank" rel="noopener">重读资本论 - 王德峰</a></td>
-        <td class="col3">在哲学家的视角下，讲解了资本论，偏僻入里，深入浅出。哲学小王子名不虚传。这个系列可以作为资本论这本书的导读，看完这个系列然后再去读原书</td>
-        <td class="col4">已完成</td>
-    </tr>
-    <tr><td class="col1">大四寒假</td>
-        <td class="col2"><a href="https://www.bilibili.com/video/BV1Ct4y1z7mz?p=1" target="_blank" rel="noopener">数学与应用数学专业导论课</a></td>
-        <td class="col3">南开大学开设的导论课，涉及分析学，代数学，几何与拓扑，微分方程，实变函数，复变函数，泛函分析的宏观介绍</td>
-        <td class="col4">已完成</td>
-    </tr>
-    <tr><td class="col1">大三</td>
-        <td class="col2"><a href="https://www.bilibili.com/video/BV1bW411V7Y5?from=search&seid=4475446159967691563" target="_blank" rel="noopener">曾国藩的识人用人之道 - 曾仕强</a></td>
-        <td class="col3">我非常崇拜曾老师，因此看过他的很多讲座。但是好像都忘记了，实际上并不是，我发现一些东西已经潜移默化了，已经成为了我思维和性格的一部分。最后，切记不可呆板的模仿别人的经验，要灵活学习。</td>
-        <td class="col4">已完成</td>
-    </tr>
-    <tr><td class="col1">大三</td>
-        <td class="col2"><a href="https://www.bilibili.com/video/BV1bW411V7Y5?from=search&seid=4475446159967691563" target="_blank" rel="noopener">鬼谷子的人生智慧 - 曾仕强</a></td>
-        <td class="col3">鬼谷子的一些人生智慧。看了这些内容要活学活用，最好是能启发自己。即使什么没记住也比不懂装懂，呆板模仿要好许多。</td>
-        <td class="col4">已完成</td>
-    </tr>
-</table>
-
-<hr>
-<p><strong>下面的表格表示我将要开始的新坑，写在这里做个目标，做个记录。</strong></p>
-<hr>
-<table class="table">
-    <tr><th class="col1">时间段</th><th class="col2">项目</th><th class="col3">描述</th><th class="col4">备注</th></tr>
-    <tr><td class="col1">长期</td>
-        <td class="col2"><a href="">读优秀的博客，写总结</a></td>
-        <td class="col3">坚持阅读优秀的博客，包括来自各大优秀的博客论坛，包括中文和英文的。并坚持写自己的感悟，摘抄博客里面优秀的内容。</td>
-        <td class="col4"></td>
-    </tr>
-    <tr><td class="col1">长期</td>
-        <td class="col2"><a href="">刷算法题</a></td>
-        <td class="col3">锻炼自己解决问题的能力。</td>
-        <td class="col4"></td>
-    </tr>
-    <tr><td class="col1">近期</td>
-        <td class="col2"><a href="">刷numpy和pandas百题通关</a></td>
-        <td class="col3"></td>
-        <td class="col4"></td>
-    </tr>
-    <tr><td class="col1">近期</td>
-        <td class="col2"><a href="">刷实验楼里面免费的优秀课程</a></td>
-        <td class="col3"></td>
-        <td class="col4"></td>
-    </tr>
-    <tr><td class="col1">2021暑假</td>
-        <td class="col2"><a href="">学习汇编语言</a></td>
-        <td class="col3"></td>
-        <td class="col4"></td>
-    </tr>
-    <tr><td class="col1">待定</td>
-        <td class="col2"><a href="">学习形式语言和自动机</a></td>
-        <td class="col3"></td>
-        <td class="col4"></td>
-    </tr>
-    <tr><td class="col1">待定</td>
-        <td class="col2"><a href="">数理数学知识体系</a></td>
-        <td class="col3"></td>
-        <td class="col4"></td>
-    </tr>
-    <tr><td class="col1">待定</td>
-        <td class="col2"><a href="">巩固操作系统，写一个自己的操作系统</a></td>
-        <td class="col3">参考6.828</td>
-        <td class="col4"></td>
-    </tr>
-    <tr><td class="col1">待定</td>
-        <td class="col2"><a href="">巩固编译原理，写一个编译器</a></td>
-        <td class="col3">参考CS143</td>
-        <td class="col4"></td>
-    </tr>
-    <tr><td class="col1"></td>
-        <td class="col2"><a href=""></a></td>
-        <td class="col3"></td>
-        <td class="col4"></td>
-    </tr>
-</table>
             </div>
         </div>
 
@@ -333,6 +717,28 @@
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
             <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">49k</span>&nbsp;字
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
             <span id="sitetime">载入运行时间...</span>
             <script>
                 function siteTime() {
@@ -376,13 +782,12 @@
                 }
                 setInterval(siteTime, 1000);
             </script>
-            <br>
-            <span>运行时间不准确，不必在意！！！</span>
+            
             <br>
             
         </div>
         <div class="col s12 m4 l4 social-link social-statis">
-    <a href="https://github.com/AndrewGuangg" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+    <a href="https://github.com/AllenWrong" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
         <i class="fab fa-github"></i>
     </a>
 
@@ -392,6 +797,15 @@
         <i class="fas fa-envelope-open"></i>
     </a>
 
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=884691896" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 884691896" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
 
 
 
