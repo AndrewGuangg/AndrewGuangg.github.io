@@ -156,7 +156,8 @@
                 </div>
                 <br/>
 
-<p><strong>关于Star个数的说明：star个数越多表明课程质量越好，越需要学习。但是某些star少的并不一定是资料质量不行。有可能是因为这些课程是高阶的课程，内容很深，或者该资料需要很强的数学功底，或者该课程是硕士课程等等。</strong></p>
+<p><strong>【关于Star个数的说明】：star个数越多表明课程质量越好，越需要学习。但是某些star少的并不一定是资料质量不行。有可能是因为这些课程是高阶的课程，内容很深，或者该资料需要很强的数学功底，或者该课程是硕士课程等等。</strong></p>
+<p><strong>【关于投稿说明】：本文的内容还不是很全面。欢迎各位读者投稿。字数较少的内容可以直接通过页面右下方的绿色小按钮发送消息。字数较多的内容可以通过txt文件发送过来。每一行的格式：主题名$文本/课程$描述$备注。即使用$符来分割列。备注可以直接写成“~颗星”。这样我们可以通过程序很方便的来生成html页面中的表格项。使用屏幕右下方的小按钮进行首次留言的话，一般在1分钟内无法及时回复（这是插件本身的原因）。请谅解。</strong></p>
 <hr>
 <style>
     .table{
@@ -324,6 +325,32 @@
         <div class="card">
         </div> 
     </div>
+<div class="card valine-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="vcomments" class="card-content" style="display: grid">
+    </div>
+</div>
+
+<script src="/libs/valine/av-min.js"></script>
+<script src="/libs/valine/Valine.min.js"></script>
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: 'EQW1L4eS0wlahm0Or5zAxIIj-gzGzoHsz',
+        appKey: 'Uwscsty6LprMIhdUz4FoRBN5',
+        notify: 'false' === 'true',
+        verify: 'false' === 'true',
+        visitor: 'true' === 'true',
+        avatar: 'mm',
+        pageSize: '10',
+        lang: 'zh-cn',
+        placeholder: 'just go go'
+    });
+</script>	
+
 </main>
 
 
